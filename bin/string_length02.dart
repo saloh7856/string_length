@@ -6,6 +6,14 @@
     Returns:
         True or False
      */
+bool func(String a){
+    if(a.length%2==0){
+      return True;
+    }else
+    if(a.length%2>0){
+      return False;
+    }
+}
 void main() {
-  // write your code here
+print(func(great));
 }
