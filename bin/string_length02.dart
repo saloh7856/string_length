@@ -7,13 +7,13 @@
         True or False
      */
 bool func(String a){
-    if(a.length%2==0){
-      return True;
+  int n;
+  n=a.length;
+    if(n%2==0){
+      return true;
     }else
-    if(a.length%2>0){
-      return False;
-    }
+    return false;
 }
 void main() {
-print(func(great));
+print(func('greats'));
 }
